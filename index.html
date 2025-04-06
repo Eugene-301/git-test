@@ -11,7 +11,8 @@
     <script>
       const h1 = document.querySelector("h1");
       for (let index = 1; index < 10; index++) {
-        h1.textContent = h1.textContent + "2";
+        h1.textContent = h1.textContent + toString(index);
+        console.log(index);
       }
     </script>
   </body>
